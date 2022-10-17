@@ -1,10 +1,10 @@
 package combat
 
 import (
-	"zhabakvak/toads"
-	"fmt"
+	"zhabakvak/field"
 )
 
+
 type combatManager struct {
-	
+	Arena  field.Arena
 }
