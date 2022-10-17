@@ -4,7 +4,6 @@ import (
 	"zhabakvak/field"
 )
 
-
 type combatManager struct {
-	Arena  field.Arena
+	Arena field.Arena
 }

@@ -5,10 +5,10 @@ import (
 )
 
 type DefaultProtect struct {
-	Defence 	int
+	Defence int
 }
 
-func NewDefaultProtect(baseDefence int) *DefaultProtect{
+func NewDefaultProtect(baseDefence int) *DefaultProtect {
 	return &DefaultProtect{Defence: baseDefence}
 }
 
@@ -22,9 +22,9 @@ func (d *DefaultProtect) Calculate(dmg int, buff []buffs.Buff) int {
 	}
 
 	fdmg := dmg - d.Defence + fbuff
-	 
+
 	if fdmg <= 5 {
-		fdmg = 5 
+		fdmg = 5
 		return fdmg
 	}
 

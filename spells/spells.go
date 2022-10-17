@@ -1,4 +1,4 @@
-package spells 
+package spells
 
 import (
 	"zhabakvak/buffs"
